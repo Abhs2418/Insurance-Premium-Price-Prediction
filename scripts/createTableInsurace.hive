@@ -1,0 +1,29 @@
+drop table if exists insurance;
+create table insurance
+(id	int,
+Age	float,
+Gender	string,
+Annual Income	float,
+Marital Status	string,
+Number of Dependents	float,
+Education Level	string,
+Occupation	string,
+Health Score	float,
+Location	string,
+Policy Type	string,
+Previous Claims	float,
+Vehicle Age	float,
+Credit Score	float,
+Insurance Duration	float,
+Policy Start Date	string,
+Customer Feedback	string,
+Smoking Status	string,
+Exercise Frequency	string,
+Property Type	string,
+Premium Amount	float)
+row format delimited
+fields terminated by ',';
+load data local inpath 'Insurance Premium Prediction.csv' into table insurance; 
+
+--Run the file using the following command on CLI
+--hive -f createTableInsurace.hive
