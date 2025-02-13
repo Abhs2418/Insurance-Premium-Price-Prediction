@@ -4,7 +4,7 @@
 - **Programming & ML:** Python, Machine Learning  
 - **Big Data Processing:** PySpark  
 - **Interactive Visualizations & Analysis:** Streamlit  
-- **Dashboarding:** Tableau  
+- **Dashboarding:** Microsoft Power BI  
 
 ## 📌 Project Overview  
 The **Insurance Premium Price Prediction** project leverages **machine learning** techniques to estimate health insurance premiums based on various individual factors. By analyzing key attributes, the model helps users gain insights into their insurance costs, enabling better decision-making.  
